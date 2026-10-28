@@ -1,0 +1,52 @@
+{
+  "model_parameters": {
+    "mu": 0.1,
+    "sigma": 0.2,
+    "r": 0.02,
+    "gamma": 3.0,
+    "lam": 0.005,
+    "external_lambda": 0.003
+  },
+  "simulation_parameters": {
+    "S0": 100.0,
+    "T": 1.0,
+    "n_steps_base": 252,
+    "n_paths": 500,
+    "W0": 1000.0,
+    "seed": 42
+  },
+  "davis_norman": {
+    "pi_star": 0.6666666666666665,
+    "pi_minus_asymptotic": 0.6168732805938091,
+    "pi_plus_asymptotic": 0.716460052739524
+  },
+  "amm_parameters": {
+    "gamma_amm": 0.7982481047363847,
+    "tau": 0.19934994509891202,
+    "w": 0.6685498738399539
+  },
+  "tracking_error": {
+    "mean": 0.1332166970209619,
+    "std": 0.12290902447184818,
+    "by_granularity": {
+      "21": 0.12344115965057309,
+      "63": 0.1304777007913203,
+      "126": 0.1499522001565089,
+      "252": 0.15183948365588568,
+      "504": 0.12932176968049552,
+      "1008": 0.11872492422539146
+    },
+    "convergence_exponent": -0.004122865349639166
+  },
+  "weight_violations": {
+    "mean_violation_rate": 0.0
+  },
+  "wealth_comparison": {
+    "mean_terminal_ratio": 0.9898975360202061,
+    "std_terminal_ratio": 0.004965385509570362,
+    "median_terminal_ratio": 0.9924071159565688,
+    "t_stat_vs_1": -45.44902919050208,
+    "p_value_vs_1": 1.6770023611909365e-179,
+    "fraction_lp_outperforms": 0.0
+  }
+}

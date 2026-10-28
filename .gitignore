@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data — raw fetched market data must NOT be committed
+# (simulated .npz fixtures used by tests ARE committed)
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.feather
+data/*.h5
+# Keep simulated .npz fixtures
+!data/simulated_paths.npz
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MLflow
+mlruns/
